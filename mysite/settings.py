@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-(x&4yrl5oape!p*@b2k6q+vaxqjrbo7)7q66jzjidvvv4br3!z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['46.249.25.179:8000', '46.249.25.179']
 
 
 # Application definition
@@ -74,10 +74,21 @@ WSGI_APPLICATION = 'mysite.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+    'ENGINE': 'django.db.backends.postgresql_psycopg2',
+    'NAME': 'diplom',
+    'USER': 'admin',
+    'PASSWORD': 'admin',
+    'HOST': '0.0.0.0', # Set to empty string for localhost.
+    'PORT': '5432', # Set to empty string for default.
     }
 }
 
@@ -87,8 +98,8 @@ DATABASES = {
 #         'NAME': 'db',
 #         'USER': 'admin',
 #         'PASSWORD': 'admin',
-#         'HOST': '127.0.0.1',
-#         'PORT': '8110',
+#         'HOST': 'localhost',
+#         'PORT': '3306',
 #     }
 # }
 
