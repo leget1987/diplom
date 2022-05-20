@@ -14,7 +14,7 @@ class EntryView(admin.ModelAdmin):
 class StatementView(admin.ModelAdmin):
     list_display = (
         'client', 'type_statement', 'data_statement', 'contract_number', 'data_start_contract', 'data_start_contract',
-        'package_documents', 'payment_status', 'passport_series', 'passport_number')
+        'payment_status', 'passport_series', 'passport_number')
 
 
 class ClientView(admin.ModelAdmin):
