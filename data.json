@@ -1,0 +1,1837 @@
+[
+  {
+    "model": "admin.logentry",
+    "pk": 1,
+    "fields": {
+      "action_time": "2022-05-14T20:17:37.692Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "1",
+      "object_repr": "Большой зал",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 2,
+    "fields": {
+      "action_time": "2022-05-14T20:17:45.939Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "2",
+      "object_repr": "Малый зал",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 3,
+    "fields": {
+      "action_time": "2022-05-14T20:17:46.173Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "3",
+      "object_repr": "Малый зал",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 4,
+    "fields": {
+      "action_time": "2022-05-14T20:18:05.062Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "4",
+      "object_repr": "Гимнастический зал",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 5,
+    "fields": {
+      "action_time": "2022-05-14T20:18:15.590Z",
+      "user": 1,
+      "content_type": 14,
+      "object_id": "5",
+      "object_repr": "Зал единоборств",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 6,
+    "fields": {
+      "action_time": "2022-05-14T20:18:48.969Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "1",
+      "object_repr": "Начинающие 2010 года рождения",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 7,
+    "fields": {
+      "action_time": "2022-05-14T20:18:59.054Z",
+      "user": 1,
+      "content_type": 13,
+      "object_id": "2",
+      "object_repr": "Начинающие 2012 года рождения",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 8,
+    "fields": {
+      "action_time": "2022-05-14T20:21:20.480Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Администраторы",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 9,
+    "fields": {
+      "action_time": "2022-05-14T20:23:50.158Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "2",
+      "object_repr": "Тренеры",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 10,
+    "fields": {
+      "action_time": "2022-05-14T20:24:10.845Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Президент",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 11,
+    "fields": {
+      "action_time": "2022-05-14T20:26:13.607Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "2",
+      "object_repr": "Президент",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"User permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 12,
+    "fields": {
+      "action_time": "2022-05-14T20:27:03.798Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "Администратор_1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 13,
+    "fields": {
+      "action_time": "2022-05-14T20:27:18.150Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Администратор_2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 14,
+    "fields": {
+      "action_time": "2022-05-14T20:27:28.473Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "Тренер_1",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 15,
+    "fields": {
+      "action_time": "2022-05-14T20:27:49.197Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "5",
+      "object_repr": "Тренер_1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 16,
+    "fields": {
+      "action_time": "2022-05-14T20:28:07.536Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "Тренер_2",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 17,
+    "fields": {
+      "action_time": "2022-05-14T20:28:23.875Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "6",
+      "object_repr": "Тренер_2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 18,
+    "fields": {
+      "action_time": "2022-05-14T20:28:41.735Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "3",
+      "object_repr": "Администратор_1",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 19,
+    "fields": {
+      "action_time": "2022-05-14T20:28:59.741Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "4",
+      "object_repr": "Администратор_2",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"First name\", \"Last name\", \"Staff status\", \"Groups\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 20,
+    "fields": {
+      "action_time": "2022-05-14T20:34:30.512Z",
+      "user": 3,
+      "content_type": 13,
+      "object_id": "3",
+      "object_repr": "Начинающие 2010 года рождения",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 21,
+    "fields": {
+      "action_time": "2022-05-14T20:34:40.291Z",
+      "user": 3,
+      "content_type": 13,
+      "object_id": "4",
+      "object_repr": "Начинающие 2012  года рождения",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 22,
+    "fields": {
+      "action_time": "2022-05-14T20:53:40.114Z",
+      "user": 3,
+      "content_type": 8,
+      "object_id": "1",
+      "object_repr": "Клиент ИВанов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 23,
+    "fields": {
+      "action_time": "2022-05-14T20:54:29.206Z",
+      "user": 3,
+      "content_type": 8,
+      "object_id": "2",
+      "object_repr": "Клиент Петров",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 24,
+    "fields": {
+      "action_time": "2022-05-14T20:58:19.862Z",
+      "user": 3,
+      "content_type": 13,
+      "object_id": "5",
+      "object_repr": "Начинающие 2010",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 25,
+    "fields": {
+      "action_time": "2022-05-14T20:58:35.742Z",
+      "user": 3,
+      "content_type": 13,
+      "object_id": "6",
+      "object_repr": "Мастера 2005",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 26,
+    "fields": {
+      "action_time": "2022-05-14T20:58:35.822Z",
+      "user": 3,
+      "content_type": 13,
+      "object_id": "7",
+      "object_repr": "Мастера 2005",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 27,
+    "fields": {
+      "action_time": "2022-05-14T21:01:15.853Z",
+      "user": 3,
+      "content_type": 18,
+      "object_id": "1",
+      "object_repr": "на запись в группу",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 28,
+    "fields": {
+      "action_time": "2022-05-14T21:01:27.106Z",
+      "user": 3,
+      "content_type": 18,
+      "object_id": "2",
+      "object_repr": "на аттестацию",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 29,
+    "fields": {
+      "action_time": "2022-05-14T21:01:37.773Z",
+      "user": 3,
+      "content_type": 18,
+      "object_id": "3",
+      "object_repr": "на соревнования",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 30,
+    "fields": {
+      "action_time": "2022-05-14T21:02:15.337Z",
+      "user": 3,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Паспорт",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 31,
+    "fields": {
+      "action_time": "2022-05-14T21:02:36.457Z",
+      "user": 3,
+      "content_type": 11,
+      "object_id": "2",
+      "object_repr": "Загранпаспорт",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 32,
+    "fields": {
+      "action_time": "2022-05-14T21:03:00.754Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "1",
+      "object_repr": "Пакет документов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 33,
+    "fields": {
+      "action_time": "2022-05-14T21:03:43.267Z",
+      "user": 3,
+      "content_type": 19,
+      "object_id": "1",
+      "object_repr": "Заявление на на соревнования от Клиент ИВанов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 34,
+    "fields": {
+      "action_time": "2022-05-14T21:03:51.532Z",
+      "user": 3,
+      "content_type": 12,
+      "object_id": "1",
+      "object_repr": "Запись в группу Мастера 2005",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 35,
+    "fields": {
+      "action_time": "2022-05-14T21:07:47.880Z",
+      "user": 3,
+      "content_type": 9,
+      "object_id": "1",
+      "object_repr": "Тренер Иванов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 36,
+    "fields": {
+      "action_time": "2022-05-14T21:11:46.248Z",
+      "user": 1,
+      "content_type": 3,
+      "object_id": "1",
+      "object_repr": "Администраторы",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"Permissions\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 37,
+    "fields": {
+      "action_time": "2022-05-14T21:12:20.505Z",
+      "user": 3,
+      "content_type": 17,
+      "object_id": "1",
+      "object_repr": "Городские соревнования",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 38,
+    "fields": {
+      "action_time": "2022-05-14T21:12:33.427Z",
+      "user": 3,
+      "content_type": 17,
+      "object_id": "2",
+      "object_repr": "Областные(федеральный округ)",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 39,
+    "fields": {
+      "action_time": "2022-05-14T21:12:39.040Z",
+      "user": 3,
+      "content_type": 10,
+      "object_id": "1",
+      "object_repr": "Мероприятие",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 40,
+    "fields": {
+      "action_time": "2022-05-14T21:12:53.885Z",
+      "user": 3,
+      "content_type": 11,
+      "object_id": "3",
+      "object_repr": "Паспорт",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 41,
+    "fields": {
+      "action_time": "2022-05-14T21:12:55.905Z",
+      "user": 3,
+      "content_type": 15,
+      "object_id": "2",
+      "object_repr": "Пакет документов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 42,
+    "fields": {
+      "action_time": "2022-05-14T21:13:05.120Z",
+      "user": 3,
+      "content_type": 7,
+      "object_id": "1",
+      "object_repr": "Желтый",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 43,
+    "fields": {
+      "action_time": "2022-05-14T21:14:29.496Z",
+      "user": 3,
+      "content_type": 21,
+      "object_id": "1",
+      "object_repr": "Тренировка тренера Иванов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 44,
+    "fields": {
+      "action_time": "2022-05-14T21:14:39.136Z",
+      "user": 3,
+      "content_type": 22,
+      "object_id": "1",
+      "object_repr": "Тренирующий",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 45,
+    "fields": {
+      "action_time": "2022-05-14T21:15:18.907Z",
+      "user": 5,
+      "content_type": 21,
+      "object_id": "2",
+      "object_repr": "Тренировка тренера Иванов",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 46,
+    "fields": {
+      "action_time": "2022-05-15T07:25:56.397Z",
+      "user": 3,
+      "content_type": 11,
+      "object_id": "1",
+      "object_repr": "Разрешение",
+      "action_flag": 2,
+      "change_message": "[{\"changed\": {\"fields\": [\"\\u041d\\u0430\\u0438\\u043c\\u0435\\u043d\\u043e\\u0432\\u0430\\u043d\\u0438\\u0435\"]}}]"
+    }
+  },
+  {
+    "model": "admin.logentry",
+    "pk": 47,
+    "fields": {
+      "action_time": "2022-05-15T17:47:01.182Z",
+      "user": 1,
+      "content_type": 4,
+      "object_id": "7",
+      "object_repr": "Тренер_3",
+      "action_flag": 1,
+      "change_message": "[{\"added\": {}}]"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 1,
+    "fields": {
+      "name": "Can add log entry",
+      "content_type": 1,
+      "codename": "add_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 2,
+    "fields": {
+      "name": "Can change log entry",
+      "content_type": 1,
+      "codename": "change_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 3,
+    "fields": {
+      "name": "Can delete log entry",
+      "content_type": 1,
+      "codename": "delete_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 4,
+    "fields": {
+      "name": "Can view log entry",
+      "content_type": 1,
+      "codename": "view_logentry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 5,
+    "fields": {
+      "name": "Can add permission",
+      "content_type": 2,
+      "codename": "add_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 6,
+    "fields": {
+      "name": "Can change permission",
+      "content_type": 2,
+      "codename": "change_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 7,
+    "fields": {
+      "name": "Can delete permission",
+      "content_type": 2,
+      "codename": "delete_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 8,
+    "fields": {
+      "name": "Can view permission",
+      "content_type": 2,
+      "codename": "view_permission"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 9,
+    "fields": {
+      "name": "Can add group",
+      "content_type": 3,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 10,
+    "fields": {
+      "name": "Can change group",
+      "content_type": 3,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 11,
+    "fields": {
+      "name": "Can delete group",
+      "content_type": 3,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 12,
+    "fields": {
+      "name": "Can view group",
+      "content_type": 3,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 13,
+    "fields": {
+      "name": "Can add user",
+      "content_type": 4,
+      "codename": "add_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 14,
+    "fields": {
+      "name": "Can change user",
+      "content_type": 4,
+      "codename": "change_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 15,
+    "fields": {
+      "name": "Can delete user",
+      "content_type": 4,
+      "codename": "delete_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 16,
+    "fields": {
+      "name": "Can view user",
+      "content_type": 4,
+      "codename": "view_user"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 17,
+    "fields": {
+      "name": "Can add content type",
+      "content_type": 5,
+      "codename": "add_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 18,
+    "fields": {
+      "name": "Can change content type",
+      "content_type": 5,
+      "codename": "change_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 19,
+    "fields": {
+      "name": "Can delete content type",
+      "content_type": 5,
+      "codename": "delete_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 20,
+    "fields": {
+      "name": "Can view content type",
+      "content_type": 5,
+      "codename": "view_contenttype"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 21,
+    "fields": {
+      "name": "Can add session",
+      "content_type": 6,
+      "codename": "add_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 22,
+    "fields": {
+      "name": "Can change session",
+      "content_type": 6,
+      "codename": "change_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 23,
+    "fields": {
+      "name": "Can delete session",
+      "content_type": 6,
+      "codename": "delete_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 24,
+    "fields": {
+      "name": "Can view session",
+      "content_type": 6,
+      "codename": "view_session"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 25,
+    "fields": {
+      "name": "Can add Пояс",
+      "content_type": 7,
+      "codename": "add_belt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 26,
+    "fields": {
+      "name": "Can change Пояс",
+      "content_type": 7,
+      "codename": "change_belt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 27,
+    "fields": {
+      "name": "Can delete Пояс",
+      "content_type": 7,
+      "codename": "delete_belt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 28,
+    "fields": {
+      "name": "Can view Пояс",
+      "content_type": 7,
+      "codename": "view_belt"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 29,
+    "fields": {
+      "name": "Can add Клиент",
+      "content_type": 8,
+      "codename": "add_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 30,
+    "fields": {
+      "name": "Can change Клиент",
+      "content_type": 8,
+      "codename": "change_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 31,
+    "fields": {
+      "name": "Can delete Клиент",
+      "content_type": 8,
+      "codename": "delete_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 32,
+    "fields": {
+      "name": "Can view Клиент",
+      "content_type": 8,
+      "codename": "view_client"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 33,
+    "fields": {
+      "name": "Can add Тренер",
+      "content_type": 9,
+      "codename": "add_coach"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 34,
+    "fields": {
+      "name": "Can change Тренер",
+      "content_type": 9,
+      "codename": "change_coach"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 35,
+    "fields": {
+      "name": "Can delete Тренер",
+      "content_type": 9,
+      "codename": "delete_coach"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 36,
+    "fields": {
+      "name": "Can view Тренер",
+      "content_type": 9,
+      "codename": "view_coach"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 37,
+    "fields": {
+      "name": "Can add Мероприятие",
+      "content_type": 10,
+      "codename": "add_competition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 38,
+    "fields": {
+      "name": "Can change Мероприятие",
+      "content_type": 10,
+      "codename": "change_competition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 39,
+    "fields": {
+      "name": "Can delete Мероприятие",
+      "content_type": 10,
+      "codename": "delete_competition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 40,
+    "fields": {
+      "name": "Can view Мероприятие",
+      "content_type": 10,
+      "codename": "view_competition"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 41,
+    "fields": {
+      "name": "Can add Документ",
+      "content_type": 11,
+      "codename": "add_document"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 42,
+    "fields": {
+      "name": "Can change Документ",
+      "content_type": 11,
+      "codename": "change_document"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 43,
+    "fields": {
+      "name": "Can delete Документ",
+      "content_type": 11,
+      "codename": "delete_document"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 44,
+    "fields": {
+      "name": "Can view Документ",
+      "content_type": 11,
+      "codename": "view_document"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 45,
+    "fields": {
+      "name": "Can add Запись",
+      "content_type": 12,
+      "codename": "add_entry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 46,
+    "fields": {
+      "name": "Can change Запись",
+      "content_type": 12,
+      "codename": "change_entry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 47,
+    "fields": {
+      "name": "Can delete Запись",
+      "content_type": 12,
+      "codename": "delete_entry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 48,
+    "fields": {
+      "name": "Can view Запись",
+      "content_type": 12,
+      "codename": "view_entry"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 49,
+    "fields": {
+      "name": "Can add Группа",
+      "content_type": 13,
+      "codename": "add_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 50,
+    "fields": {
+      "name": "Can change Группа",
+      "content_type": 13,
+      "codename": "change_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 51,
+    "fields": {
+      "name": "Can delete Группа",
+      "content_type": 13,
+      "codename": "delete_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 52,
+    "fields": {
+      "name": "Can view Группа",
+      "content_type": 13,
+      "codename": "view_group"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 53,
+    "fields": {
+      "name": "Can add Зал",
+      "content_type": 14,
+      "codename": "add_hall"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 54,
+    "fields": {
+      "name": "Can change Зал",
+      "content_type": 14,
+      "codename": "change_hall"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 55,
+    "fields": {
+      "name": "Can delete Зал",
+      "content_type": 14,
+      "codename": "delete_hall"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 56,
+    "fields": {
+      "name": "Can view Зал",
+      "content_type": 14,
+      "codename": "view_hall"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 57,
+    "fields": {
+      "name": "Can add Пакет документов",
+      "content_type": 15,
+      "codename": "add_packagedocuments"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 58,
+    "fields": {
+      "name": "Can change Пакет документов",
+      "content_type": 15,
+      "codename": "change_packagedocuments"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 59,
+    "fields": {
+      "name": "Can delete Пакет документов",
+      "content_type": 15,
+      "codename": "delete_packagedocuments"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 60,
+    "fields": {
+      "name": "Can view Пакет документов",
+      "content_type": 15,
+      "codename": "view_packagedocuments"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 61,
+    "fields": {
+      "name": "Can add Разряд",
+      "content_type": 16,
+      "codename": "add_rank"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 62,
+    "fields": {
+      "name": "Can change Разряд",
+      "content_type": 16,
+      "codename": "change_rank"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 63,
+    "fields": {
+      "name": "Can delete Разряд",
+      "content_type": 16,
+      "codename": "delete_rank"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 64,
+    "fields": {
+      "name": "Can view Разряд",
+      "content_type": 16,
+      "codename": "view_rank"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 65,
+    "fields": {
+      "name": "Can add Рейтинг",
+      "content_type": 17,
+      "codename": "add_rating"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 66,
+    "fields": {
+      "name": "Can change Рейтинг",
+      "content_type": 17,
+      "codename": "change_rating"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 67,
+    "fields": {
+      "name": "Can delete Рейтинг",
+      "content_type": 17,
+      "codename": "delete_rating"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 68,
+    "fields": {
+      "name": "Can view Рейтинг",
+      "content_type": 17,
+      "codename": "view_rating"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 69,
+    "fields": {
+      "name": "Can add Тип заявления",
+      "content_type": 18,
+      "codename": "add_typestatement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 70,
+    "fields": {
+      "name": "Can change Тип заявления",
+      "content_type": 18,
+      "codename": "change_typestatement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 71,
+    "fields": {
+      "name": "Can delete Тип заявления",
+      "content_type": 18,
+      "codename": "delete_typestatement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 72,
+    "fields": {
+      "name": "Can view Тип заявления",
+      "content_type": 18,
+      "codename": "view_typestatement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 73,
+    "fields": {
+      "name": "Can add Заявление",
+      "content_type": 19,
+      "codename": "add_statement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 74,
+    "fields": {
+      "name": "Can change Заявление",
+      "content_type": 19,
+      "codename": "change_statement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 75,
+    "fields": {
+      "name": "Can delete Заявление",
+      "content_type": 19,
+      "codename": "delete_statement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 76,
+    "fields": {
+      "name": "Can view Заявление",
+      "content_type": 19,
+      "codename": "view_statement"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 77,
+    "fields": {
+      "name": "Can add Выступающий",
+      "content_type": 20,
+      "codename": "add_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 78,
+    "fields": {
+      "name": "Can change Выступающий",
+      "content_type": 20,
+      "codename": "change_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 79,
+    "fields": {
+      "name": "Can delete Выступающий",
+      "content_type": 20,
+      "codename": "delete_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 80,
+    "fields": {
+      "name": "Can view Выступающий",
+      "content_type": 20,
+      "codename": "view_speaker"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 81,
+    "fields": {
+      "name": "Can add Тренировка",
+      "content_type": 21,
+      "codename": "add_practice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 82,
+    "fields": {
+      "name": "Can change Тренировка",
+      "content_type": 21,
+      "codename": "change_practice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 83,
+    "fields": {
+      "name": "Can delete Тренировка",
+      "content_type": 21,
+      "codename": "delete_practice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 84,
+    "fields": {
+      "name": "Can view Тренировка",
+      "content_type": 21,
+      "codename": "view_practice"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 85,
+    "fields": {
+      "name": "Can add Тренирующий",
+      "content_type": 22,
+      "codename": "add_coaching"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 86,
+    "fields": {
+      "name": "Can change Тренирующий",
+      "content_type": 22,
+      "codename": "change_coaching"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 87,
+    "fields": {
+      "name": "Can delete Тренирующий",
+      "content_type": 22,
+      "codename": "delete_coaching"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 88,
+    "fields": {
+      "name": "Can view Тренирующий",
+      "content_type": 22,
+      "codename": "view_coaching"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 89,
+    "fields": {
+      "name": "Can add Достижение",
+      "content_type": 23,
+      "codename": "add_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 90,
+    "fields": {
+      "name": "Can change Достижение",
+      "content_type": 23,
+      "codename": "change_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 91,
+    "fields": {
+      "name": "Can delete Достижение",
+      "content_type": 23,
+      "codename": "delete_achievements"
+    }
+  },
+  {
+    "model": "auth.permission",
+    "pk": 92,
+    "fields": {
+      "name": "Can view Достижение",
+      "content_type": 23,
+      "codename": "view_achievements"
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 1,
+    "fields": {
+      "name": "Администраторы",
+      "permissions": [
+        92,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        85,
+        86,
+        87,
+        88,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54,
+        55,
+        56,
+        57,
+        58,
+        59,
+        60,
+        81,
+        82,
+        83,
+        84,
+        64,
+        65,
+        66,
+        67,
+        68,
+        77,
+        78,
+        79,
+        80,
+        73,
+        74,
+        75,
+        76,
+        69,
+        70,
+        71,
+        72
+      ]
+    }
+  },
+  {
+    "model": "auth.group",
+    "pk": 2,
+    "fields": {
+      "name": "Тренеры",
+      "permissions": [
+        92,
+        25,
+        26,
+        27,
+        28,
+        32,
+        36,
+        88,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        81,
+        82,
+        83,
+        84,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        80,
+        76,
+        72
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$PQ3u3xK3Vyo7pAZWJ02rDS$keL4FxSrOxwWIgJOALeiZteUq2s9EimevSTkHKJAquw=",
+      "last_login": "2022-05-15T19:24:38.692Z",
+      "is_superuser": true,
+      "username": "admin",
+      "first_name": "",
+      "last_name": "",
+      "email": "admin@ya.ru",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-14T19:01:41.413Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$ctk8JPkTYkJOlG5RzM6xKg$GNTKs04x+uHsu0HqIPq/cgcZqscZriZOPcP1Bkfekog=",
+      "last_login": "2022-05-14T21:10:43.940Z",
+      "is_superuser": false,
+      "username": "Президент",
+      "first_name": "Владимир",
+      "last_name": "Владимирович",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-14T20:24:10Z",
+      "groups": [],
+      "user_permissions": [
+        89,
+        90,
+        91,
+        92,
+        28,
+        32,
+        36,
+        88,
+        40,
+        44,
+        48,
+        52,
+        56,
+        60,
+        84,
+        61,
+        62,
+        63,
+        64,
+        65,
+        66,
+        67,
+        68,
+        80,
+        76,
+        72
+      ]
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$9z7tNXJLVMxgQFGYvSLpob$VAZ/FKPVNnzyU3cVX4Zfhy6rJhmyORlttYFIk8JJnWI=",
+      "last_login": "2022-05-15T17:47:52.158Z",
+      "is_superuser": false,
+      "username": "Администратор_1",
+      "first_name": "Иван",
+      "last_name": "Петров",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-14T20:27:03Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$WgDm3x6Z04TQLxzNxUL1hZ$vOgx0lSHLUy/44aDPq3Hn6yuZruuPtFA05njsTiMsv0=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Администратор_2",
+      "first_name": "Петр",
+      "last_name": "Иванов",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-14T20:27:17Z",
+      "groups": [
+        1
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 5,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$WzGUYOtgsH4rGwtkVaBtfG$GPSz1zenHWAy6xBt661FVs2srapBDq1IZuTJ3wAYu2c=",
+      "last_login": "2022-05-14T21:14:53.178Z",
+      "is_superuser": false,
+      "username": "Тренер_1",
+      "first_name": "Иван",
+      "last_name": "Иванов",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-14T20:27:27Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 6,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$Kks454cpdvuPE6MJy4bqQx$5hBow/075yFukbH7JIRH5kTjD4r+igvZMx+fNqOVSbg=",
+      "last_login": "2022-05-15T17:49:33.115Z",
+      "is_superuser": false,
+      "username": "Тренер_2",
+      "first_name": "Петр",
+      "last_name": "Петров",
+      "email": "",
+      "is_staff": true,
+      "is_active": true,
+      "date_joined": "2022-05-14T20:28:07Z",
+      "groups": [
+        2
+      ],
+      "user_permissions": []
+    }
+  },
+  {
+    "model": "auth.user",
+    "pk": 7,
+    "fields": {
+      "password": "pbkdf2_sha256$320000$J5rePWCQ13zINQlDzKPGnZ$EQZy7ZiZvRFrNRRVtzQBO5qm0v48misT2J66J1jeeVM=",
+      "last_login": null,
+      "is_superuser": false,
+      "username": "Тренер_3",
+      "first_name": "",
+      "last_name": "",
+      "email": "",
+      "is_staff": false,
+      "is_active": true,
+      "date_joined": "2022-05-15T17:47:00.924Z",
+      "groups": [],
+      "user_permissions": []
+    }
+  },
+
+  {
+    "model": "diplom.group",
+    "pk": 5,
+    "fields": {
+      "data_formation": "2022-05-14",
+      "description": "Начинающие 2010"
+    }
+  },
+  {
+    "model": "diplom.group",
+    "pk": 6,
+    "fields": {
+      "data_formation": "2022-05-14",
+      "description": "Мастера 2005"
+    }
+  },
+  {
+    "model": "diplom.group",
+    "pk": 7,
+    "fields": {
+      "data_formation": "2022-05-14",
+      "description": "Мастера 2005"
+    }
+  },
+
+  {
+    "model": "diplom.typestatement",
+    "pk": 1,
+    "fields": {
+      "name": "на запись в группу"
+    }
+  },
+  {
+    "model": "diplom.typestatement",
+    "pk": 2,
+    "fields": {
+      "name": "на аттестацию"
+    }
+  },
+  {
+    "model": "diplom.typestatement",
+    "pk": 3,
+    "fields": {
+      "name": "на соревнования"
+    }
+  },
+
+  {
+    "model": "diplom.client",
+    "pk": 1,
+    "fields": {
+      "surname": "ИВанов",
+      "firstname": "Иван",
+      "patronymic": "Иванович",
+      "date_birth": "2010-05-14",
+      "phone_number": "8-999-999-99-99",
+      "date_enrollment": "2022-05-14",
+      "growth": "150",
+      "weight": "50"
+    }
+  },
+  {
+    "model": "diplom.client",
+    "pk": 2,
+    "fields": {
+      "surname": "Петров",
+      "firstname": "Петр",
+      "patronymic": "Петрович",
+      "date_birth": "2011-05-14",
+      "phone_number": "8-800-800-80-08",
+      "date_enrollment": "2022-05-14",
+      "growth": "152",
+      "weight": "45"
+    }
+  },
+
+  {
+    "model": "diplom.rating",
+    "pk": 1,
+    "fields": {
+      "name": "Городские соревнования"
+    }
+  },
+  {
+    "model": "diplom.rating",
+    "pk": 2,
+    "fields": {
+      "name": "Областные(федеральный округ)"
+    }
+  },
+  {
+    "model": "diplom.hall",
+    "pk": 1,
+    "fields": {
+      "name": "Большой зал"
+    }
+  },
+  {
+    "model": "diplom.hall",
+    "pk": 2,
+    "fields": {
+      "name": "Малый зал"
+    }
+  },
+  {
+    "model": "diplom.hall",
+    "pk": 3,
+    "fields": {
+      "name": "Малый зал"
+    }
+  },
+  {
+    "model": "diplom.hall",
+    "pk": 4,
+    "fields": {
+      "name": "Гимнастический зал"
+    }
+  },
+  {
+    "model": "diplom.hall",
+    "pk": 5,
+    "fields": {
+      "name": "Зал единоборств"
+    }
+  }
+]
