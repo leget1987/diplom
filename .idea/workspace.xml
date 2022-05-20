@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c8d3ef1-c90b-47c0-941e-f88c1074300e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/diplom/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom/migrations/0002_alter_achievements_belt_alter_achievements_client_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom/migrations/0003_remove_competition_speaker_id_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom/migrations/0004_remove_packagedocuments_document_and_more.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/diplom/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/diplom/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +27,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "/home/denis_l/learn/diplom_kondratov",
     "vue.rearranger.settings.migration": "true"
   },
   "keyToStringList": {
@@ -41,6 +36,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -49,7 +49,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653033873765</updated>
-      <workItem from="1653033875349" duration="8847000" />
+      <workItem from="1653033875349" duration="10329000" />
     </task>
     <servers />
   </component>
