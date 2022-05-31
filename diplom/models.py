@@ -5,7 +5,7 @@ from django.db import models
 class Group(models.Model):
     group_id = models.AutoField(primary_key=True, db_column="id_группы", verbose_name="id_группы")
     data_formation = models.DateField(db_column='Дата_формирования', verbose_name="Дата_формирования")
-    description = models.TextField(db_column="Описание_групы", verbose_name="Описание_группы")
+    description = models.TextField(db_column="Описание_группы", verbose_name="Описание_группы")
 
     def __str__(self):
         return f'{self.description}'
@@ -120,14 +120,16 @@ class Client(models.Model):
 
 class Achievements(models.Model):
     achievements_id = models.AutoField(primary_key=True, db_column="id_достижения", verbose_name="id_достижения")
-    client = models.ForeignKey(to='Client', on_delete=models.CASCADE, db_column="id_клиента(FK)",
-                               verbose_name="id_клиента(FK)")
+    # client = models.ForeignKey(to='Client', on_delete=models.CASCADE, db_column="id_клиента(FK)",
+    #                            verbose_name="id_клиента(FK)")
     rank = models.ForeignKey(to='Rank', on_delete=models.CASCADE, db_column="id_разряда(FK)",
                              verbose_name="id_разряда(FK)")
     date_assignment = models.DateField(db_column="Дата_присвоения", verbose_name="Дата_присвоения")
     belt = models.ForeignKey(to='Belt', on_delete=models.CASCADE, db_column="id_пояса(FK)", verbose_name="id_пояса(FK)")
-    competition = models.ForeignKey(to='Competition', on_delete=models.CASCADE, db_column="id_мероприятия(FK)",
-                                    verbose_name="id_мероприятия(FK)")
+    # competition = models.ForeignKey(to='Competition', on_delete=models.CASCADE, db_column="id_мероприятия(FK)",
+    #                                 verbose_name="id_мероприятия(FK)")
+    speaker = models.ForeignKey(to='Speaker', on_delete=models.CASCADE, db_column="id_выступающего(FK)",
+                                verbose_name="id_выступающего(FK)", default='')
     passport_number = models.CharField(max_length=20, db_column="Номер_паспорта_спортсмена",
                                        verbose_name="Номер_паспорта_спортсмена")
 
@@ -215,7 +217,7 @@ class Speaker(models.Model):
 
 class Coaching(models.Model):
     """Тренирующий"""
-    coaching_id = models.AutoField(primary_key=True, db_column="id_тренерующегося", verbose_name="id_тренерующегося")
+    coaching_id = models.AutoField(primary_key=True, db_column="id_тренирующегося", verbose_name="id_тренирующегося")
     practice_id = models.ForeignKey(to='Practice', on_delete=models.CASCADE, db_column="id_тренировки(FK)",
                                     verbose_name="id_тренировки(FK)")
     entry_id = models.ForeignKey(to='Entry', on_delete=models.CASCADE, db_column="id_записи(FK)",
@@ -265,7 +267,7 @@ class Coach(models.Model):
 
 class Practice(models.Model):
     """Тренировки"""
-    practice_id = models.AutoField(primary_key=True, db_column="id_тренеровки", verbose_name="id_тренеровки")
+    practice_id = models.AutoField(primary_key=True, db_column="id_тренировки", verbose_name="id_тренировки")
     coach = models.ForeignKey(to='Coach', on_delete=models.CASCADE, db_column="id_тренера(FK)",
                               verbose_name="id_тренера(FK)")
     date = models.DateField(db_column="Дата", verbose_name="Дата")

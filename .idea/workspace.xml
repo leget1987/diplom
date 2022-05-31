@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6c8d3ef1-c90b-47c0-941e-f88c1074300e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/357f3ab0-d80f-4256-a6cc-6887c5c0739d.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/357f3ab0-d80f-4256-a6cc-6887c5c0739d.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplom/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/diplom/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/diplom/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/diplom/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,20 +24,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/denis_l/learn/diplom_kondratov",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/denis_l/learn/diplom_kondratov&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -48,7 +51,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653033873765</updated>
-      <workItem from="1653033875349" duration="11818000" />
+      <workItem from="1653033875349" duration="12070000" />
+      <workItem from="1653295297342" duration="102000" />
+      <workItem from="1653566254346" duration="728000" />
     </task>
     <servers />
   </component>

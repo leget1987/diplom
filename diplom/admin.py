@@ -25,7 +25,7 @@ class ClientView(admin.ModelAdmin):
 
 class AchievementsView(admin.ModelAdmin):
     list_display = (
-        'client', 'rank', 'date_assignment', 'belt', 'competition', 'passport_number')
+        'rank', 'date_assignment', 'belt', 'speaker', 'passport_number')
 
 
 class CompetitionView(admin.ModelAdmin):
